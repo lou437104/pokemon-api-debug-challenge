@@ -1,4 +1,4 @@
-const btn = document.getElementByID("searchBtn");
+const btn = document.getElementById("searchBtn");
 const resultText = document.querySelector("#pokeResult");
 const image = document.querySelector("pokeImg");
 
