@@ -1,6 +1,7 @@
 const btn = document.getElementById("searchBtn");
 const resultText = document.querySelector("#pokeResult");
 const image = document.querySelector("#pokeImg");
+const name = document.getElementById("pokeName").value.trim().toLowerCase();
 
 btn.addEventListener("click", function() {
   const name = document.getElementById("pokeName").value.toLowerCase();
