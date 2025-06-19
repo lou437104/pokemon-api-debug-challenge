@@ -13,3 +13,25 @@ img {
   margin-top: 10px;
   width: 150px;
 }
+button {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f5b700;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#pokeImg {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
